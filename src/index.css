@@ -1,0 +1,17 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family:'DinCondensed' ;
+  src: url(/public/fonts/DIN\ Condensed\ Bold.ttf) format('truetype')
+}
+
+@font-face {
+  font-family:'GillSans' ;
+  src: url(/public/fonts/GillSans.ttc) format('truetype')
+}

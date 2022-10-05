@@ -1,0 +1,43 @@
+
+
+ul {
+   list-style: none;
+}
+
+li {
+   margin-left: 20px;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+   font-family: 'DinCondensed', 'GillSans';
+}
+
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   position: fixed;
+   width: 100vw;
+   height: 60px;
+   top: 0;
+   left: 0;
+}
+
+.nav-start ul {
+   display: flex;
+   margin-right: 400px;
+}
+
+.title {
+   font-size: 25px;
+   font-family: 'DinCondensed', 'GillSans';
+}
+
+.nav-end {
+   display: flex;
+  margin-left: 200px;
+}

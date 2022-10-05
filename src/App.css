@@ -1,0 +1,30 @@
+.container {
+   margin: 10px;
+}
+
+.header {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 600px;
+   background-image: url();
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.slogan {
+   text-align: center;
+}
+
+.slogan h1 {
+   font-size: 95px;
+}
+
+.slogan h2 {
+   font-size: 80px;
+}
+
+button {
+   border: none;
+}

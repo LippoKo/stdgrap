@@ -1,0 +1,33 @@
+
+.meet {
+   text-align: start;
+   width: 20vw;
+   position: relative;
+}
+
+.button {
+   font-family: 'DinCondensed', 'GillSans';
+   background-color: hsl(9, 98%, 84%);
+   padding: 3px;
+}
+
+.meet h1 {
+   font-size: 50px;
+}
+
+.meet h6 {
+   text-align: start;
+   margin-top: 20px;
+   width: 10vw;
+   max-height: 250px;
+}
+
+.meet h1::before {
+   content:'';
+   height: 3px;
+   width: 200px;
+   position: absolute;
+   top: 90px;
+   z-index: 1;
+   background-color: hsl(9, 98%, 84%);
+}
