@@ -1,0 +1,143 @@
+
+/* our menu */
+.our-menu {
+   margin-top: 20px;
+   border-right: 2px solid grey;
+   height: 60vw;
+}
+
+.our-menu h1 {
+   font-family: 'DinCondensed';
+   font-size: 60px;
+}
+
+.menu-title {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.article-menu {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+}
+
+.menu-title::before {
+   content:'';
+   height: 6px;
+   width: 200px;
+   position: absolute;
+   z-index: -1;
+   background-color: var(--base-color);
+}
+
+/* ------ Dishes ------ */
+.dishes {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 650px;
+   margin-left: 147px;
+   margin-right: 180px;
+}
+
+.each-dish {
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
+   height: 11.5vw;
+   margin-bottom: 10px;
+}
+
+/* starters block */
+.starters {
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   text-align: start;
+}
+
+.starters h1 {
+   font-family: 'DinCondensed';
+   font-size: 60px;
+   margin-bottom: 40px;
+}
+
+.starters h4 {
+   font-family: 'DinCondensed';
+}
+
+.starters p {
+   font-family: 'GillSans';
+   width: 15vw;
+}
+
+/* sides block */
+.main-courses {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-around;
+   flex-direction: column;
+   text-align: start;
+}
+
+.main-courses h1 {
+   font-family: 'DinCondensed';
+   font-size: 60px;
+   margin-bottom: 40px;
+}
+
+.main-courses h4 {
+   font-family: 'DinCondensed';
+}
+
+.main-courses p {
+   font-family: 'GillSans';
+   width: 15vw;
+}
+
+.border-01 {
+   border-left: 2px solid grey;
+}
+
+/* sides block */
+.sides {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-around;
+   flex-direction: column;
+   text-align: start;
+}
+
+.sides h1 {
+   font-family: 'DinCondensed';
+   font-size: 60px;
+   margin-bottom: 40px;
+}
+
+.sides h4 {
+   font-family: 'DinCondensed';
+}
+
+.sides p {
+   font-family: 'GillSans';
+   width: 15vw;
+}
+
+/* price */
+.price {
+   border: 2px solid var(--base-color);
+   text-align: center;
+   width: 50px;
+   padding: 3px;
+}
+
+.price h5 {
+   font-family: 'DinCondensed';
+}
+
+

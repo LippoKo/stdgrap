@@ -1,0 +1,45 @@
+
+.location {
+   position: relative;
+   background-image: url(/public/images/maps-1.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 500px;
+}
+
+.square {
+   display: flex;
+   text-align: flex-start;
+   align-items: flex-end;
+   width: 220px;
+   height: 106px;
+   background-color: white;
+   padding-bottom: 16px;
+   position: relative;
+   left: 128px;
+   top: 88px;
+
+}
+
+.square-h1 {
+   position: absolute;
+   top: 60px;
+   left: 147px;
+   font-family: 'DinCondensed';
+   font-size: 62px;
+   z-index: 1;
+}
+
+.square p {
+   margin-left: 18px;
+   font-family: 'GillSans';
+}
+
+.pin {
+   left: 754px;
+   top: 200px;
+   width: 42px;
+   height: auto;
+   position: absolute;
+}

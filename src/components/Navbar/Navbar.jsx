@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div>
-        <a className="title">STDGRAP</a>
+        <a className="title">LOGO</a>
       </div>
       <div className="nav-start">
         <ul>

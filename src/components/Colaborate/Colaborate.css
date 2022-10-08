@@ -1,0 +1,27 @@
+
+
+.colaborate {
+   position: relative;
+   height: 462px;
+   width: 100vw;
+   background-color: var(--base-color);
+}
+
+.colaborate-info {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+}
+
+.with-us {
+   text-align: center;
+   font-family: 'DinCondensed';
+}
+
+.with-us h3 {
+   font-size: 30px;
+}
+
+.with-us h1 {
+   font-size: 62px;
+}

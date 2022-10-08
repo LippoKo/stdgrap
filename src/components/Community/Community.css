@@ -1,33 +1,133 @@
+/* community class */
+.community {
+   display: flex;
+   flex-wrap: wrap;
+}
 
+.community p {
+   font-family: 'GillSans';
+   width: 15vw;
+   margin-left: 40px;
+}
+
+.image-space {
+   margin-left: 30px;
+}
+
+/* meet class */
 .meet {
    text-align: start;
    width: 20vw;
    position: relative;
+   z-index: 1;
+   font-family: 'DinCondensed';
 }
 
-.button {
-   font-family: 'DinCondensed', 'GillSans';
-   background-color: hsl(9, 98%, 84%);
-   padding: 3px;
-}
-
-.meet h1 {
+.meet-h1 {
    font-size: 50px;
 }
 
-.meet h6 {
+.meet-h6 {
    text-align: start;
    margin-top: 20px;
-   width: 10vw;
+   width: 12vw;
    max-height: 250px;
+   font-size: 20px;
 }
 
 .meet h1::before {
    content:'';
-   height: 3px;
+   height: 6px;
    width: 200px;
    position: absolute;
    top: 90px;
-   z-index: 1;
-   background-color: hsl(9, 98%, 84%);
+   z-index: -1;
+   background-color:var(--base-color);
 }
+
+.button {
+   font-family: 'DinCondensed', 'GillSans';
+   background-color:var(--base-color);
+   padding: 3px;
+}
+
+/* Tacos block */
+.tacos {
+   display: flex;
+   align-items: center;
+   position: relative;
+   z-index: 1;
+   height: 300px;
+   width: 600px;
+}
+
+.feed {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   align-items: flex-start;
+   font-family: 'DinCondensed';
+   height: 230px;
+   width: 250px;
+   background-color: white;
+   padding: 20px;
+   position: relative;
+}
+
+.icons-svg {
+   display: flex;
+   justify-content: space-between;
+   width: 86px;
+   align-items: center;
+   position: absolute;
+   bottom: 1px;
+   right: 40px;
+}
+
+.detail-01 {
+   position: absolute;
+   z-index: -1;
+   bottom: 5px;
+   right: 55px;
+}
+
+.detail-02 {
+   position: absolute;
+   z-index: -1;
+   bottom: 5px;
+   left: 205px;
+}
+
+
+/* wafles block */
+.wafles {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   position: relative;
+   z-index: 1;
+   height: 300px;
+   width: 800px;
+}
+
+.detail-03 {
+   position: absolute;
+   z-index: -1;
+   bottom: 1px;
+   left: 72px;
+}
+
+/* calamari block */
+.calamari {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 300px;
+}
+
+.calamari p {
+   margin-right: 300px;
+}
+
+
+

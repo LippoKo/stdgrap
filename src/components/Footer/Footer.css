@@ -1,0 +1,25 @@
+
+.footer {
+   position: relative;
+   width: 100vw;
+   height: 462px;
+   background-color: hsl(0, 0%, 20%);
+}
+
+.footer-section {
+   display: flex;
+   justify-content: space-evenly;
+   text-align: flex-start;
+}
+
+.section h2 {
+   font-family: 'DinCondensed';
+   color: var(--base-color);
+}
+
+.section p {
+   font-family: 'GillSans';
+   color: #767676;
+}
+
+

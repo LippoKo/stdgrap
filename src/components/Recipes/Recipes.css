@@ -1,0 +1,478 @@
+
+.popular-recipes {
+   position: relative;
+   width: 100vw;
+}
+
+/* ------ recipes head ------ */
+.recipes-head {
+   display: flex;
+   justify-content: space-evenly;
+   position: relative;
+   height: 200px;
+}
+
+.article-01 {
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   position: absolute;
+   bottom: 50px;
+   left: 147px;
+}
+
+.article-02 {
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+   flex-direction: column;
+   position: absolute;
+   top: 80px;
+   right: 200px;
+}
+
+.recipes-title {
+   position: relative;
+}
+
+.recipes-h3 {
+   font-family: 'DinCondensed';
+   font-size: 35px;
+   bottom: 0px;
+   position: absolute;
+   top: 20px;
+   left: 147px;
+}
+
+.recipes-h1 {
+   font-family: 'DinCondensed';
+   font-size: 62px;
+}
+
+.recipes-h4 {
+   font-family: 'DinCondensed';
+   font-size: 35px;
+}
+
+.recipes-title::before {
+   content:'';
+   height: 6px;
+   width: 200px;
+   position: absolute;
+   z-index: -1;
+   background-color: var(--base-color);
+   bottom: 35px;
+}
+
+/* ------ block recipes ------ */
+
+.block-recipes {
+   position: relative;
+   display: flex;
+   margin-left: 147px;
+   width: 1800px;
+   gap: 25px;
+}
+
+.back-image {
+   position: absolute;
+   bottom: 148px;
+   right: 210px;
+   z-index: 1;
+}
+
+.next-image {
+   position: absolute;
+   bottom: 148px;
+   right: 148px;
+   z-index: 1;
+}
+
+/* Charred */
+
+.charred {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   width: 370px;
+   height: 685px;
+}
+
+.charred-image {
+   position: relative;
+   width: 370px;
+}
+
+.main-image {
+   position: relative;
+}
+
+.topleft-image {
+   position: absolute;
+   width: 110px;
+   height: 110px;
+   background-color: hsla(0, 0%, 0%, 0.291);
+   top: 0px;
+
+   text-align: center;
+   font-family: 'DinCondensed';
+   color: white;
+}
+
+.topleft-image h3 {
+   font-size: 50px;
+}
+
+.topleft-image h4 {
+   font-size: 22px;
+}
+
+.bottom-image {
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
+
+.charred-info {
+   position: absolute;
+   bottom: 150px;
+   left: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 16px;
+   font-family: 'DinCondensed';
+   width: 322px;
+}
+
+.charred-info p {
+   font-family: 'GillSans';
+   font-size: 15px;
+}
+
+.charred-info h3 {
+   font-size: 22px;
+}
+
+.charred-info h5 {
+   color: #767676;
+   opacity: 56%;
+}
+
+.bottom-info-charred {
+   position: absolute;
+   bottom: 100px;
+   right: 0px;
+   font-family: 'DinCondensed';
+}
+
+.chef-charred {
+   position: absolute;
+   top: 150px;
+   left: 390px;
+   z-index: 1;
+}
+
+/* Pineapple */
+
+.pineapple {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   width: 240px;
+   height: 685px;
+}
+
+.pineapple-image {
+   position: relative;
+   width: 240px;
+}
+
+.topleft-pineapple {
+   position: absolute;
+   width: 72px;
+   height: 72px;
+   background-color: hsla(26, 97%, 50%, 0.827);
+   top: 0px;
+
+   text-align: center;
+   font-family: 'DinCondensed';
+   color: white;
+}
+
+.topleft-pineapple h3 {
+   font-size: 35px;
+}
+
+.topleft-pineapple h4 {
+   font-size: 14px;
+}
+
+.bottom-image {
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
+
+.pineapple-info {
+   position: absolute;
+   bottom: 260px;
+   left: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 16px;
+   font-family: 'DinCondensed';
+   width: 190px;
+}
+
+.pineapple-info p {
+   font-family: 'GillSans';
+   font-size: 15px;
+}
+
+.pineapple-info h3 {
+   font-size: 22px;
+}
+
+.pineapple-info h5 {
+   color: #767676;
+   opacity: 56%;
+}
+
+.bottom-info-pineapple {
+   position: absolute;
+   bottom: 210px;
+   right: 0px;
+   font-family: 'DinCondensed';
+}
+
+/* cheese */
+
+.cheese {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   width: 240px;
+   height: 685px;
+   margin-top: 120px;
+}
+
+.cheese-image {
+   position: relative;
+   width: 240px;
+}
+
+.topleft-cheese {
+   position: absolute;
+   width: 72px;
+   height: 72px;
+   background-color:hsla(0, 0%, 0%, 0.291);
+   top: 0px;
+
+   text-align: center;
+   font-family: 'DinCondensed';
+   color: white;
+}
+
+.topleft-cheese h3 {
+   font-size: 35px;
+}
+
+.topleft-cheese h4 {
+   font-size: 14px;
+}
+
+.bottom-image {
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
+
+.cheese-info {
+   position: absolute;
+   bottom: 260px;
+   left: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 16px;
+   font-family: 'DinCondensed';
+   width: 190px;
+}
+
+.cheese-info p {
+   font-family: 'GillSans';
+   font-size: 15px;
+}
+
+.cheese-info h3 {
+   font-size: 22px;
+}
+
+.cheese-info h5 {
+   color: #767676;
+   opacity: 56%;
+}
+
+.bottom-info-cheese {
+   position: absolute;
+   bottom: 210px;
+   right: 0px;
+   font-family: 'DinCondensed';
+}
+
+.chef-cheese {
+   position: absolute;
+   top: 250px;
+   right: 330px;
+   z-index: 1;
+}
+
+/* feta */
+
+.feta {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   width: 240px;
+   height: 685px;
+}
+
+.feta-image {
+   position: relative;
+   width: 240px;
+}
+
+.topleft-feta {
+   position: absolute;
+   width: 72px;
+   height: 72px;
+   background-color:hsla(0, 0%, 0%, 0.291);
+   top: 0px;
+
+   text-align: center;
+   font-family: 'DinCondensed';
+   color: white;
+}
+
+.topleft-feta h3 {
+   font-size: 35px;
+}
+
+.topleft-feta h4 {
+   font-size: 14px;
+}
+
+.bottom-image {
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
+
+.feta-info {
+   position: absolute;
+   bottom: 260px;
+   left: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 16px;
+   font-family: 'DinCondensed';
+   width: 190px;
+}
+
+.feta-info p {
+   font-family: 'GillSans';
+   font-size: 15px;
+}
+
+.feta-info h3 {
+   font-size: 22px;
+}
+
+.feta-info h5 {
+   color: #767676;
+   opacity: 56%;
+}
+
+.bottom-info-feta {
+   position: absolute;
+   bottom: 210px;
+   right: 0px;
+   font-family: 'DinCondensed';
+}
+
+/* shrimp */
+
+.shrimp {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   width: 240px;
+   height: 685px;
+}
+
+.shrimp-image {
+   position: relative;
+   width: 240px;
+}
+
+.topleft-shrimp {
+   position: absolute;
+   width: 72px;
+   height: 72px;
+   background-color:hsla(0, 0%, 0%, 0.291);
+   top: 0px;
+
+   text-align: center;
+   font-family: 'DinCondensed';
+   color: white;
+}
+
+.topleft-shrimp h3 {
+   font-size: 35px;
+}
+
+.topleft-shrimp h4 {
+   font-size: 14px;
+}
+
+.bottom-image {
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+}
+
+.shrimp-info {
+   position: absolute;
+   bottom: 260px;
+   left: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 16px;
+   font-family: 'DinCondensed';
+   width: 190px;
+}
+
+.shrimp-info p {
+   font-family: 'GillSans';
+   font-size: 15px;
+}
+
+.shrimp-info h3 {
+   font-size: 22px;
+}
+
+.shrimp-info h5 {
+   color: #767676;
+   opacity: 56%;
+}
+
+.bottom-info-shrimp {
+   position: absolute;
+   bottom: 210px;
+   right: 0px;
+   font-family: 'DinCondensed';
+}

@@ -6,6 +6,10 @@
   overflow-x: hidden;
 }
 
+:root {
+  --base-color: hsl(19, 100%, 89%);
+}
+
 @font-face {
   font-family:'DinCondensed' ;
   src: url(/public/fonts/DIN\ Condensed\ Bold.ttf) format('truetype')
@@ -15,3 +19,5 @@
   font-family:'GillSans' ;
   src: url(/public/fonts/GillSans.ttc) format('truetype')
 }
+
+

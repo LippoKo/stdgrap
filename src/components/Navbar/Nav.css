@@ -32,11 +32,6 @@ a {
    margin-right: 400px;
 }
 
-.title {
-   font-size: 25px;
-   font-family: 'DinCondensed', 'GillSans';
-}
-
 .nav-end {
    display: flex;
   margin-left: 200px;
