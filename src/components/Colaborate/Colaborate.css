@@ -8,9 +8,17 @@
 }
 
 .colaborate-info {
-   position: relative;
+   position: absolute;
+   width: 322px;
    display: flex;
    flex-direction: column;
+   gap: 20px;
+   top: 50px;
+   left: 136px;
+}
+
+.colaborate-info p {
+   font-family: 'GillSans';
 }
 
 .with-us {
@@ -20,8 +28,22 @@
 
 .with-us h3 {
    font-size: 30px;
+   text-align: start;
 }
 
 .with-us h1 {
    font-size: 62px;
+   text-align: start;
 }
+
+.before-test::before {
+   content:'';
+   height: 9px;
+   width: 200px;
+   position: absolute;
+   top: 120px;
+   left: 120px;
+   z-index: 1;
+   background-color: white;
+}
+

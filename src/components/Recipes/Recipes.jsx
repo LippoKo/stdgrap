@@ -25,19 +25,19 @@ function Recipes() {
 
       {/* Chefe stamp */}
       <div className="chef-charred">
-        <img src="/public/images/chef-stamp.png" alt="chefe-choice" />
+        <img src="/images/chef-stamp.png" alt="chefe-choice" />
       </div>
 
       <div className="chef-cheese">
-        <img src="/public/images/chef-stamp.png" alt="chefe-choice" />
+        <img src="/images/chef-stamp.png" alt="chefe-choice" />
       </div>
 
       <div className="back-image">
-        <img src="/public/images/back.png" alt="back" />
+        <img src="/images/back.png" alt="back" />
       </div>
 
       <div className="next-image">
-        <img src="/public/images/next.png" alt="next" />
+        <img src="/images/next.png" alt="next" />
       </div>
 
       {/* Block Recipes */}
@@ -48,7 +48,7 @@ function Recipes() {
             <figure className="main-image">
               <img
                 style={{ width: "370px", heigth: "370px" }}
-                src="/public/images/base-370.png"
+                src="/images/base-370.png"
                 alt="charred"
               />
             </figure>
@@ -61,7 +61,7 @@ function Recipes() {
             <figure className="bottom-image">
               <img
                 style={{ width: "60px", heigth: "60px" }}
-                src="/public/images/go-btn.png"
+                src="/images/go-btn.png"
                 alt="button"
               />
             </figure>
@@ -85,7 +85,7 @@ function Recipes() {
             <figure className="main-image">
               <img
                 style={{ width: "240px", heigth: "240px" }}
-                src="/public/images/base-240.png"
+                src="/images/base-240.png"
                 alt="pineapple"
               />
             </figure>
@@ -98,7 +98,7 @@ function Recipes() {
             <figure className="bottom-image">
               <img
                 style={{ width: "60px", heigth: "60px" }}
-                src="/public/images/go-btn.png"
+                src="/images/go-btn.png"
                 alt="button"
               />
             </figure>
@@ -121,7 +121,7 @@ function Recipes() {
             <figure className="main-image">
               <img
                 style={{ width: "240px", heigth: "240px" }}
-                src="/public/images/base-240.png"
+                src="/images/base-240.png"
                 alt="cheese"
               />
             </figure>
@@ -134,7 +134,7 @@ function Recipes() {
             <figure className="bottom-image">
               <img
                 style={{ width: "60px", heigth: "60px" }}
-                src="/public/images/go-btn.png"
+                src="/images/go-btn.png"
                 alt="button"
               />
             </figure>
@@ -157,7 +157,7 @@ function Recipes() {
             <figure className="main-image">
               <img
                 style={{ width: "240px", heigth: "240px" }}
-                src="/public/images/base-240.png"
+                src="/images/base-240.png"
                 alt="feta"
               />
             </figure>
@@ -170,7 +170,7 @@ function Recipes() {
             <figure className="bottom-image">
               <img
                 style={{ width: "60px", heigth: "60px" }}
-                src="/public/images/go-btn.png"
+                src="/images/go-btn.png"
                 alt="button"
               />
             </figure>
@@ -193,7 +193,7 @@ function Recipes() {
             <figure className="main-image">
               <img
                 style={{ width: "240px", heigth: "240px" }}
-                src="/public/images/base-240.png"
+                src="/images/base-240.png"
                 alt="shrimp"
               />
             </figure>
@@ -206,7 +206,7 @@ function Recipes() {
             <figure className="bottom-image">
               <img
                 style={{ width: "60px", heigth: "60px" }}
-                src="/public/images/go-btn.png"
+                src="/images/go-btn.png"
                 alt="button"
               />
             </figure>

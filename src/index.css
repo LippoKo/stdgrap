@@ -12,12 +12,12 @@
 
 @font-face {
   font-family:'DinCondensed' ;
-  src: url(/public/fonts/DIN\ Condensed\ Bold.ttf) format('truetype')
+  src: url(/fonts/DIN\ Condensed\ Bold.ttf) format('truetype')
 }
 
 @font-face {
   font-family:'GillSans' ;
-  src: url(/public/fonts/GillSans.ttc) format('truetype')
+  src: url(/fonts/GillSans.ttc) format('truetype')
 }
 
 

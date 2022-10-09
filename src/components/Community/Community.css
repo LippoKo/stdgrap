@@ -46,7 +46,7 @@
 }
 
 .button {
-   font-family: 'DinCondensed', 'GillSans';
+   font-family: 'DinCondensed';
    background-color:var(--base-color);
    padding: 3px;
 }

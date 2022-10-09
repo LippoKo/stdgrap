@@ -2,6 +2,10 @@
 .popular-recipes {
    position: relative;
    width: 100vw;
+   height: 890px;
+   overflow: scroll;
+   /* overflow-x: scroll; */
+   overflow-y: hidden;
 }
 
 /* ------ recipes head ------ */
@@ -76,14 +80,14 @@
 
 .back-image {
    position: absolute;
-   bottom: 148px;
+   bottom: 18px;
    right: 210px;
    z-index: 1;
 }
 
 .next-image {
    position: absolute;
-   bottom: 148px;
+   bottom: 18px;
    right: 148px;
    z-index: 1;
 }

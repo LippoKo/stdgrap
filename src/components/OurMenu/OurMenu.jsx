@@ -26,6 +26,9 @@ function OurMenu() {
     <>
       {menu && (
         <div className="our-menu">
+          <div className="border-01"></div>
+          <div className="border-02"></div>
+          <div className="border-03"></div>
           <article className="article-menu">
             <h1 className="menu-title">OUR MENU</h1>
             <button className="button">
@@ -57,7 +60,7 @@ function OurMenu() {
                 </div>
               </div>
             </div>
-            <div className="main-courses border-01">
+            <div className="main-courses">
               <h1>
                 MAIN <br />
                 COURSES

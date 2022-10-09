@@ -44,14 +44,14 @@ function Community() {
             📸: @taylormillerphoto
           </p>
           <div className="icons-svg">
-            <img src="/public/images/Path 80.svg" alt="comment" />
+            <img src="/images/Path 80.svg" alt="comment" />
             <span>60</span>
-            <img src="/public/images/Group 126.svg" alt="heart" />
+            <img src="/images/Group 126.svg" alt="heart" />
             <span>14,7K</span>
           </div>
         </div>
         <figure className="detail-01">
-          <img src="/public/images/detail01.png" alt="detail-01" />
+          <img src="/images/detail01.png" alt="detail-01" />
         </figure>
         <figure className="detail-02">
           <img src="/images/detail02.png" alt="detail-02" />
@@ -66,9 +66,9 @@ function Community() {
             @foodwithmichel] #lovefood
           </p>
           <div className="icons-svg">
-            <img src="/public/images/Path 80.svg" alt="comment" />
+            <img src="/images/Path 80.svg" alt="comment" />
             <span>709</span>
-            <img src="/public/images/Group 126.svg" alt="heart" />
+            <img src="/images/Group 126.svg" alt="heart" />
             <span>99,7K</span>
           </div>
         </div>
@@ -103,9 +103,9 @@ function Community() {
             @jeepneynyc)
           </p>
           <div className="icons-svg">
-            <img src="/public/images/Path 80.svg" alt="comment" />
+            <img src="/images/Path 80.svg" alt="comment" />
             <span>152</span>
-            <img src="/public/images/Group 126.svg" alt="heart" />
+            <img src="/images/Group 126.svg" alt="heart" />
             <span>18,2K</span>
           </div>
         </div>

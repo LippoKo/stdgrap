@@ -1,0 +1,46 @@
+
+.form {
+   width: 560px;
+   height: 300px;
+   position: absolute;
+   top: 120px;
+   right: 145px;
+}
+
+.form-origin {
+   display: flex;
+   flex-wrap: wrap;
+   height: 300px;
+   justify-content: flex-end;
+}
+
+label {
+	display: flex;
+   flex-direction: column;
+   text-align: start;
+   margin-left: 20px;
+   font-family: 'DinCondensed';
+}
+
+input {
+	padding: 10px;
+   margin-top: 10px;
+   border: 0;
+   border-bottom: 2px solid black;
+   outline: 0;
+   width: 250px;
+   font-family: 'GillSans';
+   text-align: start;
+   background-color: var(--base-color);
+}
+
+.form-button {
+   font-family: 'DinCondensed';
+   background-color: black;
+   padding: 3px;
+   color: var(--base-color);
+   height: 30px;
+   width: 50px;
+   overflow-y: hidden;
+   font-size: 18px;
+}
