@@ -6,6 +6,8 @@ function Recipes() {
     <section className="popular-recipes">
       <div className="recipes-head">
         <h3 className="recipes-h3">POPULAR</h3>
+
+        {/* article 01 */}
         <article className="article-01">
           <div className="recipes-title">
             <h1 className="recipes-h1">RECIPES</h1>
@@ -15,6 +17,7 @@ function Recipes() {
           </button>
         </article>
 
+        {/* article 02 */}
         <article className="article-02">
           <h4 className="recipes-h4">DO YOU WANT TO SHARE YOUR OWN RECIPE?</h4>
           <button className="button">
@@ -32,6 +35,7 @@ function Recipes() {
         <img src="/images/chef-stamp.png" alt="chefe-choice" />
       </div>
 
+      {/* bottom arrows */}
       <div className="back-image">
         <img src="/images/back.png" alt="back" />
       </div>
@@ -53,7 +57,7 @@ function Recipes() {
               />
             </figure>
 
-            <div className="topleft-image">
+            <div className="topLeft-image">
               <h3>4</h3>
               <h4>SERVINGS</h4>
             </div>
@@ -90,7 +94,7 @@ function Recipes() {
               />
             </figure>
 
-            <div className="topleft-pineapple">
+            <div className="topLeft-pineapple">
               <h3>2</h3>
               <h4>SERVINGS</h4>
             </div>
@@ -126,7 +130,7 @@ function Recipes() {
               />
             </figure>
 
-            <div className="topleft-cheese">
+            <div className="topLeft-cheese">
               <h3>2</h3>
               <h4>SERVINGS</h4>
             </div>
@@ -162,7 +166,7 @@ function Recipes() {
               />
             </figure>
 
-            <div className="topleft-feta">
+            <div className="topLeft-feta">
               <h3>8</h3>
               <h4>SERVINGS</h4>
             </div>
@@ -198,7 +202,7 @@ function Recipes() {
               />
             </figure>
 
-            <div className="topleft-shrimp">
+            <div className="topLeft-shrimp">
               <h3>4</h3>
               <h4>SERVINGS</h4>
             </div>

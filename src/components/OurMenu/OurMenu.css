@@ -10,6 +10,30 @@
    font-size: 60px;
 }
 
+.border-01 {
+   height: 800px;
+   border-left: 2px solid grey;
+   position: absolute;
+   left: 430px;
+   opacity: 60%;
+}
+
+.border-02 {
+   height: 800px;
+   border-left: 2px solid grey;
+   position: absolute;
+   left: 675px;
+   opacity: 60%;
+}
+
+.border-03 {
+   height: 800px;
+   border-left: 2px solid grey;
+   position: absolute;
+   left: 920px;
+   opacity: 60%;
+}
+
 .menu-title {
    display: flex;
    justify-content: center;
@@ -75,7 +99,7 @@
    width: 15vw;
 }
 
-/* sides block */
+/* main courses block */
 .main-courses {
    display: flex;
    align-items: flex-start;
@@ -99,30 +123,6 @@
    width: 15vw;
 }
 
-.border-01 {
-   height: 800px;
-   border-left: 2px solid grey;
-   position: absolute;
-   left: 430px;
-   opacity: 60%;
-}
-
-.border-02 {
-   height: 800px;
-   border-left: 2px solid grey;
-   position: absolute;
-   left: 675px;
-   opacity: 60%;
-}
-
-.border-03 {
-   height: 800px;
-   border-left: 2px solid grey;
-   position: absolute;
-   left: 920px;
-   opacity: 60%;
-}
-
 /* sides block */
 .sides {
    display: flex;
@@ -143,6 +143,30 @@
 }
 
 .sides p {
+   font-family: 'GillSans';
+   width: 15vw;
+}
+
+/* desserts block */
+.desserts {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-around;
+   flex-direction: column;
+   text-align: start;
+}
+
+.desserts h1 {
+   font-family: 'DinCondensed';
+   font-size: 60px;
+   margin-bottom: 40px;
+}
+
+.desserts h4 {
+   font-family: 'DinCondensed';
+}
+
+.desserts p {
    font-family: 'GillSans';
    width: 15vw;
 }

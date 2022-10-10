@@ -3,10 +3,9 @@ import React from "react";
 import "./Community.css";
 
 function Community() {
-  // const isInView = useInView(ref);
-
   return (
     <section className="community">
+      {/* creating moviment with motion */}
       <motion.article
         initial="hidden"
         isInView="visible"
@@ -25,7 +24,7 @@ function Community() {
         </h6>
       </motion.article>
 
-      {/* images */}
+      {/* tacos */}
       <div className="tacos">
         <div className="tacos-img">
           <figure className="image-space">
@@ -57,6 +56,8 @@ function Community() {
           <img src="/images/detail02.png" alt="detail-02" />
         </figure>
       </div>
+
+      {/* wafles */}
       <div className="wafles">
         <div className="image-space feed">
           <h3>@love_food</h3>
@@ -89,6 +90,8 @@ function Community() {
           obcaecati, ab sint veritatis nesciunt.
         </p>
       </div>
+
+      {/* calamari */}
       <div className="calamari">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste

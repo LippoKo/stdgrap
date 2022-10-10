@@ -5,6 +5,7 @@ import "./OurMenu.css";
 function OurMenu() {
   const [menu, setMenu] = useState(null);
 
+  // call to API
   const getMenu = async () => {
     try {
       let response = await axios.get(
@@ -35,6 +36,8 @@ function OurMenu() {
               <a href="#"> KNOW MORE</a>
             </button>
           </article>
+
+          {/* dishes */}
           <section className="dishes">
             <div className="starters">
               <h1>STARTERS</h1>
@@ -60,6 +63,7 @@ function OurMenu() {
                 </div>
               </div>
             </div>
+
             <div className="main-courses">
               <h1>
                 MAIN <br />
@@ -80,6 +84,7 @@ function OurMenu() {
                 </div>
               </div>
             </div>
+
             <div className="sides">
               <h1>SIDES</h1>
               <div className="each-dish">
@@ -97,7 +102,7 @@ function OurMenu() {
                 </div>
               </div>
             </div>
-            <div className="starters">
+            <div className="desserts">
               <h1>DESSERTS</h1>
               <div className="each-dish">
                 <h4>{menu[7].title.toUpperCase()}</h4>

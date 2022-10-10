@@ -111,7 +111,7 @@
    position: relative;
 }
 
-.topleft-image {
+.topLeft-image {
    position: absolute;
    width: 110px;
    height: 110px;
@@ -123,11 +123,11 @@
    color: white;
 }
 
-.topleft-image h3 {
+.topLeft-image h3 {
    font-size: 50px;
 }
 
-.topleft-image h4 {
+.topLeft-image h4 {
    font-size: 22px;
 }
 
@@ -192,7 +192,7 @@
    width: 240px;
 }
 
-.topleft-pineapple {
+.topLeft-pineapple {
    position: absolute;
    width: 72px;
    height: 72px;
@@ -204,11 +204,11 @@
    color: white;
 }
 
-.topleft-pineapple h3 {
+.topLeft-pineapple h3 {
    font-size: 35px;
 }
 
-.topleft-pineapple h4 {
+.topLeft-pineapple h4 {
    font-size: 14px;
 }
 
@@ -267,7 +267,7 @@
    width: 240px;
 }
 
-.topleft-cheese {
+.topLeft-cheese {
    position: absolute;
    width: 72px;
    height: 72px;
@@ -279,11 +279,11 @@
    color: white;
 }
 
-.topleft-cheese h3 {
+.topLeft-cheese h3 {
    font-size: 35px;
 }
 
-.topleft-cheese h4 {
+.topLeft-cheese h4 {
    font-size: 14px;
 }
 
@@ -348,7 +348,7 @@
    width: 240px;
 }
 
-.topleft-feta {
+.topLeft-feta {
    position: absolute;
    width: 72px;
    height: 72px;
@@ -360,11 +360,11 @@
    color: white;
 }
 
-.topleft-feta h3 {
+.topLeft-feta h3 {
    font-size: 35px;
 }
 
-.topleft-feta h4 {
+.topLeft-feta h4 {
    font-size: 14px;
 }
 
@@ -422,7 +422,7 @@
    width: 240px;
 }
 
-.topleft-shrimp {
+.topLeft-shrimp {
    position: absolute;
    width: 72px;
    height: 72px;
@@ -434,11 +434,11 @@
    color: white;
 }
 
-.topleft-shrimp h3 {
+.topLeft-shrimp h3 {
    font-size: 35px;
 }
 
-.topleft-shrimp h4 {
+.topLeft-shrimp h4 {
    font-size: 14px;
 }
 

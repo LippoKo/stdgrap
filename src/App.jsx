@@ -2,7 +2,6 @@ import "./App.css";
 import Colaborate from "./components/Colaborate/Colaborate";
 import Community from "./components/Community/Community";
 import Footer from "./components/Footer/Footer";
-import Form from "./components/Form/Form";
 import Location from "./components/Location/Location";
 import Navbar from "./components/Navbar/Navbar";
 import OurMenu from "./components/OurMenu/OurMenu";
