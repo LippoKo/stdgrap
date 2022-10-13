@@ -24,6 +24,7 @@
 .with-us {
    text-align: center;
    font-family: 'DinCondensed';
+   z-index: 1;
 }
 
 .with-us h3 {
@@ -36,7 +37,7 @@
    text-align: start;
 }
 
-.before-test::before {
+.before-with::before {
    content:'';
    height: 9px;
    width: 200px;

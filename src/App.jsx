@@ -9,17 +9,25 @@ import Recipes from "./components/Recipes/Recipes";
 
 function App() {
   return (
-    <div className="container">
-      <div className="header">
-        <Navbar />
-        <figure className="logo">
-          <img style={{ width: "50%" }} src="/images/stamp.png" alt="logo" />
+    <>
+      <div className="container">
+        <figure className="food-image">
+          <img
+            src="/public/images/chad-montano-eeqbbemH9-c-unsplash-removebg-preview.png"
+            alt="food-image"
+          />
         </figure>
-        <h2 className="slogan slogan-h2">THE BEST FOODIE</h2>
-        <article className="slogan">
-          <h1>EXPERIENCIE</h1>
-          <p style={{ fontWeight: "100" }}>NOW IN LONDON</p>
-        </article>
+        <div className="header">
+          <Navbar />
+          <figure className="logo">
+            <img style={{ width: "50%" }} src="/images/stamp.png" alt="logo" />
+          </figure>
+          <h2 className="slogan slogan-h2">THE BEST FOODIE</h2>
+          <article className="slogan">
+            <h1>EXPERIENCIE</h1>
+            <p style={{ fontWeight: "100" }}>NOW IN LONDON</p>
+          </article>
+        </div>
       </div>
 
       <Community />
@@ -33,7 +41,7 @@ function App() {
       <Colaborate />
 
       <Footer />
-    </div>
+    </>
   );
 }
 

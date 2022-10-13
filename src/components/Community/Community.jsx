@@ -6,15 +6,9 @@ function Community() {
   return (
     <section className="community">
       {/* creating moviment with motion */}
-      <motion.article
-        initial="hidden"
-        isInView="visible"
-        viewport={{ once: true }}
-        animate={{ y: 100 }}
-        transition={{ type: "spring", duration: 0.8 }}
-        className="meet"
-      >
-        <h1 className="meet-h1">MEET OUR COMMUNITY</h1>
+      <h1 className="meet-h1">MEET OUR </h1>
+      <article className="meet">
+        <h2>COMMUNITY</h2>
         <button className="button">
           <a href="#"> KNOW MORE</a>
         </button>
@@ -22,11 +16,18 @@ function Community() {
           LOREM IPSUM DOLOR SIT AMET ERNUT TEMPARTERO SERTU PER NABORE EN TORNA
           ENTALTO
         </h6>
-      </motion.article>
+      </article>
 
       {/* tacos */}
-      <div className="tacos">
-        <div className="tacos-img">
+      <motion.div
+        initial="hidden"
+        isInView="visible"
+        viewport={{ once: false }}
+        animate={{ y: -240 }}
+        transition={{ type: "spring", duration: 3 }}
+        className="tacos"
+      >
+        <div className="tacos-imgage">
           <figure className="image-space">
             <img
               style={{ width: "222px", height: "221px" }}
@@ -55,10 +56,17 @@ function Community() {
         <figure className="detail-02">
           <img src="/images/detail02.png" alt="detail-02" />
         </figure>
-      </div>
+      </motion.div>
 
       {/* wafles */}
-      <div className="wafles">
+      <motion.div
+        initial="hidden"
+        isInView="visible"
+        viewport={{ once: false }}
+        animate={{ y: -630 }}
+        transition={{ type: "spring", duration: 4 }}
+        className="wafles"
+      >
         <div className="image-space feed">
           <h3>@love_food</h3>
           <p style={{ margin: "0" }}>
@@ -89,7 +97,7 @@ function Community() {
           porro blanditiis at odit, voluptatem perspiciatis. Ea qui at ratione
           obcaecati, ab sint veritatis nesciunt.
         </p>
-      </div>
+      </motion.div>
 
       {/* calamari */}
       <div className="calamari">

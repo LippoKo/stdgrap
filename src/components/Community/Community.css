@@ -2,6 +2,9 @@
 .community {
    display: flex;
    flex-wrap: wrap;
+   position: relative;
+   height: 1000px;
+   margin-top: 80px;
 }
 
 .community p {
@@ -16,14 +19,28 @@
 
 /* meet class */
 .meet {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
    text-align: start;
-   width: 20vw;
-   position: relative;
+   width: 16vw;
+   position: absolute;
    z-index: 1;
    font-family: 'DinCondensed';
+   top: 45px;
+   left: 419px;
+   padding-left: 20px;
 }
 
 .meet-h1 {
+   font-family: 'DinCondensed';
+   font-size: 50px;
+   position: absolute;
+   top: 0px;
+   left: 440px;
+}
+
+.meet h2 {
    font-size: 50px;
 }
 
@@ -35,12 +52,13 @@
    font-size: 20px;
 }
 
-.meet h1::before {
+.meet::before {
    content:'';
    height: 6px;
    width: 200px;
    position: absolute;
-   top: 90px;
+   top: 29px;
+   left: 12px;
    z-index: -1;
    background-color:var(--base-color);
 }
@@ -49,16 +67,6 @@
    font-family: 'DinCondensed';
    background-color:var(--base-color);
    padding: 3px;
-}
-
-/* Tacos block */
-.tacos {
-   display: flex;
-   align-items: center;
-   position: relative;
-   z-index: 1;
-   height: 300px;
-   width: 600px;
 }
 
 .feed {
@@ -84,6 +92,18 @@
    right: 40px;
 }
 
+/* Tacos block */
+.tacos {
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 280px;
+   right: 50px;
+   z-index: 1;
+   height: 300px;
+   width: 600px;
+}
+
 .detail-01 {
    position: absolute;
    z-index: -1;
@@ -104,7 +124,9 @@
    display: flex;
    align-items: center;
    justify-content: flex-start;
-   position: relative;
+   position: absolute;
+   top: 930px;
+   right: 435px;
    z-index: 1;
    height: 300px;
    width: 800px;
@@ -121,6 +143,10 @@
 .calamari {
    display: flex;
    align-items: center;
+   justify-content: flex-end;
+   position: absolute;
+   bottom: 100px;
+   right: 80px;
    width: 100%;
    height: 300px;
 }

@@ -52,7 +52,7 @@ function Recipes() {
             <figure className="main-image">
               <img
                 style={{ width: "370px", heigth: "370px" }}
-                src="/images/base-370.png"
+                src="/public/images/charred.jpg"
                 alt="charred"
               />
             </figure>
@@ -89,7 +89,7 @@ function Recipes() {
             <figure className="main-image">
               <img
                 style={{ width: "240px", heigth: "240px" }}
-                src="/images/base-240.png"
+                src="/public/images/pineapple.jpg"
                 alt="pineapple"
               />
             </figure>
@@ -125,7 +125,7 @@ function Recipes() {
             <figure className="main-image">
               <img
                 style={{ width: "240px", heigth: "240px" }}
-                src="/images/base-240.png"
+                src="/public/images/base-240.png"
                 alt="cheese"
               />
             </figure>
@@ -161,7 +161,7 @@ function Recipes() {
             <figure className="main-image">
               <img
                 style={{ width: "240px", heigth: "240px" }}
-                src="/images/base-240.png"
+                src="/public/images/fetaa.jpg"
                 alt="feta"
               />
             </figure>

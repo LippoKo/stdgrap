@@ -2,7 +2,8 @@
 /* our menu */
 .our-menu {
    margin-top: 20px;
-   height: 60vw;
+   height: 65vw;
+   margin-top: 80px;
 }
 
 .our-menu h1 {
@@ -44,7 +45,6 @@
 .article-menu {
    display: flex;
    align-items: center;
-   justify-content: center;
    flex-direction: column;
    position: relative;
 }
@@ -63,17 +63,16 @@
    display: flex;
    align-items: center;
    justify-content: space-evenly;
-   height: 650px;
+   height: 680px;
    margin-left: 147px;
    margin-right: 180px;
 }
 
 .each-dish {
    display: flex;
-   justify-content: space-evenly;
    flex-direction: column;
    height: 11.5vw;
-   margin-bottom: 10px;
+   gap: 10px;
 }
 
 /* starters block */
@@ -82,12 +81,13 @@
    align-items: flex-start;
    flex-direction: column;
    text-align: start;
+   height: 680px;
+   gap: 30px;
 }
 
 .starters h1 {
    font-family: 'DinCondensed';
    font-size: 60px;
-   margin-bottom: 40px;
 }
 
 .starters h4 {
@@ -103,15 +103,15 @@
 .main-courses {
    display: flex;
    align-items: flex-start;
-   justify-content: space-around;
+   justify-content: flex-end;
    flex-direction: column;
-   text-align: start;
+   height: 610px;
+   gap: 30px;
 }
 
 .main-courses h1 {
    font-family: 'DinCondensed';
    font-size: 60px;
-   margin-bottom: 40px;
 }
 
 .main-courses h4 {
@@ -127,15 +127,15 @@
 .sides {
    display: flex;
    align-items: flex-start;
-   justify-content: space-around;
+   justify-content: flex-start;
    flex-direction: column;
-   text-align: start;
+   height: 490px;
+   gap: 30px;
 }
 
 .sides h1 {
    font-family: 'DinCondensed';
    font-size: 60px;
-   margin-bottom: 40px;
 }
 
 .sides h4 {
@@ -151,15 +151,15 @@
 .desserts {
    display: flex;
    align-items: flex-start;
-   justify-content: space-around;
    flex-direction: column;
    text-align: start;
+   height: 630px;
+   gap: 30px;
 }
 
 .desserts h1 {
    font-family: 'DinCondensed';
    font-size: 60px;
-   margin-bottom: 40px;
 }
 
 .desserts h4 {

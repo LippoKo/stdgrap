@@ -1,11 +1,10 @@
 
-
 .header {
    display: flex;
    justify-content: center;
    align-items: center;
    width: 100vw;
-   height: 600px;
+   height: 700px;
    background-color: var(--base-color);
    padding-top: 150px;
 }
@@ -19,6 +18,17 @@
    left: 263px;
 }
 
+.food-image {
+   z-index: 1;
+   position: absolute;
+   top: 0px;
+   left: 420px;
+}
+
+.food-image img {
+   width: 500px;
+}
+
 .slogan {
    display: flex;
    flex-direction: column;
@@ -28,6 +38,7 @@
    color: white;
    letter-spacing: 0px;
    font-family: 'DinCondensed';
+   z-index: 1;
 }
 
 .slogan-h2 {
@@ -37,7 +48,7 @@
    text-align: center;
    overflow: hidden;
    position: absolute;
-   top: 220px;
+   top: 270px;
    z-index: 1;
 }
 

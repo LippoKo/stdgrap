@@ -1,20 +1,32 @@
 
 .footer {
    position: relative;
+   display: flex;
+   justify-content: space-around;
    width: 100vw;
-   height: 462px;
+   height: 323px;
    background-color: hsl(0, 0%, 20%);
+   padding: 30px 0px;
 }
 
 .footer-section {
    display: flex;
    justify-content: space-evenly;
    text-align: flex-start;
+   gap: 60px;
+   position: relative;
+}
+
+.section {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
 }
 
 .section h2 {
    font-family: 'DinCondensed';
    color: var(--base-color);
+   font-size: 14px;
 }
 
 .section p {
@@ -22,4 +34,46 @@
    color: #767676;
 }
 
+.side-footer {
+   display: flex;
+   flex-direction: column;
+   font-family: 'DinCondensed';
+   align-content: space-between;
+   color: white;
+   gap: 160px;
+   width: 229px;
+}
+
+.side-footer h1 {
+   font-size: 62px;
+}
+
+.logo-bottom {
+   position: absolute;
+   top: 55px;
+   right: 135px;
+}
+
+.side-footer h3 {
+   text-align: end;
+   font-size: 35px;
+}
+
+.social-images {
+   display: flex;
+   justify-content: space-between;
+}
+
+.company {
+   color: #767676;
+   font-family: 'GillSans';
+   font-size: 13px;
+   position: absolute;
+   bottom: 43px;
+   left: 0px;
+}
+
+.logo-footer {
+   position: relative;
+}
 

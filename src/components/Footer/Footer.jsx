@@ -44,6 +44,29 @@ function Footer() {
           <p>Subsection</p>
           <p>Subsection</p>
         </div>
+        <div className="company">
+          <p>
+            2017. Company. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor .
+          </p>
+        </div>
+      </div>
+
+      <div className="side-footer">
+        <h1 className="logo-bottom">LOGO</h1>
+        <div className="logo-footer">
+          <h3>THIS IS THE</h3>
+        </div>
+
+        <div className="social-media">
+          <figure className="social-images">
+            <img src="/public/images/facebook-icon.svg" alt="facebook" />
+            <img src="/public/images/twitter-icon.svg" alt="twitter" />
+            <img src="/public/images/instagram-icon.svg" alt="instagram" />
+            <img src="/public/images/Linkedin-icon.svg" alt="linkdin" />
+            <img src="/public/images/facebook-icon.svg" alt="..." />
+          </figure>
+        </div>
       </div>
     </section>
   );
