@@ -1,10 +1,9 @@
 
-.popular-recipes {
+#popular-recipes {
    position: relative;
    width: 100vw;
    height: 890px;
    overflow: scroll;
-   /* overflow-x: scroll; */
    overflow-y: hidden;
 }
 
@@ -76,6 +75,16 @@
    margin-left: 147px;
    width: 1800px;
    gap: 25px;
+}
+
+@media (min-width: 1367px) {
+   .block-recipes {
+      position: relative;
+      display: flex;
+      margin-left: 147px;
+      width: 2200px;
+      gap: 25px;
+   }
 }
 
 .back-image {
@@ -331,6 +340,15 @@
    top: 250px;
    right: 330px;
    z-index: 1;
+}
+
+@media (min-width: 1367px) {
+   .chef-cheese {
+      position: absolute;
+      top: 250px;
+      right: 900px;
+      z-index: 1;
+   }
 }
 
 /* feta */

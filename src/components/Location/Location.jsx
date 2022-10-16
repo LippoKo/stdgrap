@@ -3,7 +3,7 @@ import "./Location.css";
 
 function Location() {
   return (
-    <div className="location">
+    <div id="location">
       <h1 className="square-h1"> LOCATION</h1>
       <div className="square">
         <p>12 Upper St. Martin's Lane WC2H 9FB, London</p>

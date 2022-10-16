@@ -1,9 +1,11 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
 import "./OurMenu.css";
 
 function OurMenu() {
   const [menu, setMenu] = useState(null);
+  const scrollRef = useRef(null);
 
   // call to API
   const getMenu = async () => {
@@ -26,10 +28,7 @@ function OurMenu() {
   return (
     <>
       {menu && (
-        <div className="our-menu">
-          <div className="border-01"></div>
-          <div className="border-02"></div>
-          <div className="border-03"></div>
+        <div id="our-menu">
           <article className="article-menu">
             <h1 className="menu-title">OUR MENU</h1>
             <button className="button">
@@ -38,8 +37,16 @@ function OurMenu() {
           </article>
 
           {/* dishes */}
-          <section className="dishes">
-            <div className="starters">
+          <section ref={scrollRef} className="dishes">
+            {/* Starters */}
+            <motion.div
+              initial={{ y: 400 }}
+              animate={{ y: 0, x: 0 }}
+              whileInView="visible"
+              viewport={{ root: scrollRef }}
+              transition={{ type: "just", duration: 3 }}
+              className="starters"
+            >
               <h1>STARTERS</h1>
               <div className="each-dish">
                 <h4>{menu[0].title.toUpperCase()}</h4>
@@ -62,9 +69,17 @@ function OurMenu() {
                   <h5>£{menu[2].price}</h5>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="main-courses">
+            {/* Main Courses */}
+            <motion.div
+              initial={{ y: -500, x: 0 }}
+              animate={{ y: 0, x: 0 }}
+              whileInView="visible"
+              viewport={{ root: scrollRef }}
+              transition={{ type: "just", duration: 3 }}
+              className="main-courses"
+            >
               <h1>
                 MAIN <br />
                 COURSES
@@ -83,9 +98,17 @@ function OurMenu() {
                   <h5>£{menu[4].price}</h5>
                 </div>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="sides">
+            {/* Sides */}
+            <motion.div
+              initial={{ y: 400 }}
+              animate={{ y: 0, x: 0 }}
+              whileInView="visible"
+              viewport={{ root: scrollRef }}
+              transition={{ type: "just", duration: 3 }}
+              className="sides"
+            >
               <h1>SIDES</h1>
               <div className="each-dish">
                 <h4>{menu[5].title.toUpperCase()}</h4>
@@ -101,8 +124,17 @@ function OurMenu() {
                   <h5>£{menu[6].price}</h5>
                 </div>
               </div>
-            </div>
-            <div className="desserts">
+            </motion.div>
+
+            {/* Desserts */}
+            <motion.div
+              initial={{ y: -500 }}
+              animate={{ y: 0, x: 0 }}
+              whileInView="visible"
+              viewport={{ root: scrollRef }}
+              transition={{ type: "just", duration: 3 }}
+              className="desserts"
+            >
               <h1>DESSERTS</h1>
               <div className="each-dish">
                 <h4>{menu[7].title.toUpperCase()}</h4>
@@ -125,7 +157,7 @@ function OurMenu() {
                   <h5>£{menu[9].price}</h5>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </section>
         </div>
       )}

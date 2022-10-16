@@ -17,19 +17,18 @@ a {
 
 .title-logo {
    font-size: 28px;
-   margin-left: 15px;
 }
 
 .navbar {
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-evenly;
    padding: 20px;
    position: fixed;
-   width: 100vw;
-   height: 60px;
+   width: 100%;
    top: 0;
    left: 0;
+   z-index: 1;
 }
 
 .nav-start ul {
@@ -40,5 +39,19 @@ a {
 
 .nav-end {
    display: flex;
-  margin-left: 180px;
+   margin-left: 180px;
+}
+
+@media (min-width: 1367px) {
+   
+   .nav-start ul {
+      display: flex;
+      margin-right: 900px;
+      gap: 40px;
+   }
+   
+   .nav-end {
+      display: flex;
+      margin-left: 180px;
+   }
 }

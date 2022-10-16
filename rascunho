@@ -1,8 +1,10 @@
-import { motion } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 import React from "react";
 import "./Community.css";
 
 function Community() {
+  // const { scrollYProgress } = useScroll();
+
   return (
     <section id="community">
       {/* creating moviment with motion */}
@@ -21,9 +23,8 @@ function Community() {
       {/* tacos */}
       <motion.div
         animate={{ y: -240 }}
-        transition={{ type: "just", duration: 4 }}
+        transition={{ type: "just", duration: 3 }}
         className="tacos"
-        data-anime="up"
       >
         <div className="tacos-image">
           <figure className="image-space">
@@ -61,7 +62,6 @@ function Community() {
         animate={{ y: -630 }}
         transition={{ type: "just", duration: 4 }}
         className="wafles"
-        data-anime="up"
       >
         <div className="image-space feed">
           <h3>@love_food</h3>

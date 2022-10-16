@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <div className="container">
-        <figure className="food-image">
+        <div className="food-image">
           <img
-            src="/public/images/chad-montano-eeqbbemH9-c-unsplash-removebg-preview.png"
+            src="/public/images/fruits-removebg-preview.png"
             alt="food-image"
           />
-        </figure>
+        </div>
         <div className="header">
           <Navbar />
           <figure className="logo">

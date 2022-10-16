@@ -1,13 +1,15 @@
+  
 /* community class */
-.community {
+#community {
    display: flex;
-   flex-wrap: wrap;
    position: relative;
    height: 1000px;
-   margin-top: 80px;
+   margin-top: 50px;
+   overflow: hidden;
+   margin-right: 50px;
 }
 
-.community p {
+#community p {
    font-family: 'GillSans';
    width: 15vw;
    margin-left: 40px;
@@ -98,7 +100,7 @@
    align-items: center;
    position: absolute;
    top: 280px;
-   right: 50px;
+   right: 80px;
    z-index: 1;
    height: 300px;
    width: 600px;
@@ -126,10 +128,9 @@
    justify-content: flex-start;
    position: absolute;
    top: 930px;
-   right: 435px;
+   right: 430px;
    z-index: 1;
    height: 300px;
-   width: 800px;
 }
 
 .detail-03 {
@@ -145,9 +146,8 @@
    align-items: center;
    justify-content: flex-end;
    position: absolute;
-   bottom: 100px;
-   right: 80px;
-   width: 100%;
+   bottom: -200px;
+   right: 150px;
    height: 300px;
 }
 
@@ -155,5 +155,46 @@
    margin-right: 300px;
 }
 
+@media (min-width: 1367px) {
+   #community {
+   display: flex;
+   position: relative;
+   height: 1000px;
+   margin-top: 50px;
+   overflow: hidden;
+   width: 1366px;
+   margin-left: 250px;
+   }
 
+   .tacos {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 280px;
+      right: 120px;
+      z-index: 1;
+      height: 300px;
+      width: 600px;
+   }
 
+   .wafles {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      position: absolute;
+      top: 930px;
+      right: 390px;
+      z-index: 1;
+      height: 300px;
+   }
+
+   .calamari {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      position: absolute;
+      bottom: -200px;
+      right: 200px;
+      height: 300px;
+   }
+ }

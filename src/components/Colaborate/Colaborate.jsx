@@ -6,6 +6,9 @@ function Colaborate() {
   return (
     <section className="colaborate">
       <Form />
+      <div className="detail-04">
+        <img src="/public/images/detail02.png" alt="detail-04" />
+      </div>
       <div className="before-with"></div>
       <div className="colaborate-info">
         <div className="with-us">

@@ -3,7 +3,7 @@ import "./Recipes.css";
 
 function Recipes() {
   return (
-    <section className="popular-recipes">
+    <section id="popular-recipes">
       <div className="recipes-head">
         <h3 className="recipes-h3">POPULAR</h3>
 

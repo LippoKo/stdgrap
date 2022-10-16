@@ -73,7 +73,21 @@
    left: 0px;
 }
 
-.logo-footer {
-   position: relative;
-}
+@media (min-width: 1367px) {
+   .logo-bottom {
+      position: absolute;
+      top: 55px;
+      right: 137px;
+   }
 
+   .side-footer {
+      display: flex;
+      flex-direction: column;
+      font-family: 'DinCondensed';
+      align-content: space-between;
+      color: white;
+      gap: 160px;
+      width: 229px;
+      margin-left: 540px;
+   }
+}

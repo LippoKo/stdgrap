@@ -1,5 +1,5 @@
 
-.location {
+#location {
    position: relative;
    background-image: url(/images/maps-1.png);
    background-size: cover;
@@ -19,7 +19,6 @@
    position: relative;
    left: 128px;
    top: 88px;
-
 }
 
 .square-h1 {
@@ -30,6 +29,8 @@
    font-size: 62px;
    z-index: 1;
 }
+
+
 
 .square p {
    margin-left: 18px;
@@ -43,3 +44,44 @@
    height: auto;
    position: absolute;
 }
+
+ @media (min-width: 1367px) {
+   #location {
+      position: relative;
+      background-image: url(/images/maps-1.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100vw;
+      height: 700px;
+   }
+
+   .square {
+      display: flex;
+      text-align: flex-start;
+      align-items: flex-end;
+      width: 220px;
+      height: 106px;
+      background-color: white;
+      padding-bottom: 16px;
+      position: relative;
+      left: 228px;
+      top: 128px;
+   }
+
+   .square-h1 {
+      position: absolute;
+      top: 100px;
+      left: 247px;
+      font-family: 'DinCondensed';
+      font-size: 62px;
+      z-index: 1;
+   }
+
+   .pin {
+      left: 1064px;
+      top: 300px;
+      width: 42px;
+      height: auto;
+      position: absolute;
+   }
+ }

@@ -1,38 +1,14 @@
 
 /* our menu */
-.our-menu {
-   margin-top: 20px;
-   height: 65vw;
+#our-menu {
    margin-top: 80px;
+   margin-bottom: 20px;
+   overflow: hidden;
 }
 
-.our-menu h1 {
+#our-menu h1 {
    font-family: 'DinCondensed';
    font-size: 60px;
-}
-
-.border-01 {
-   height: 800px;
-   border-left: 2px solid grey;
-   position: absolute;
-   left: 430px;
-   opacity: 60%;
-}
-
-.border-02 {
-   height: 800px;
-   border-left: 2px solid grey;
-   position: absolute;
-   left: 675px;
-   opacity: 60%;
-}
-
-.border-03 {
-   height: 800px;
-   border-left: 2px solid grey;
-   position: absolute;
-   left: 920px;
-   opacity: 60%;
 }
 
 .menu-title {
@@ -66,12 +42,12 @@
    height: 680px;
    margin-left: 147px;
    margin-right: 180px;
+   overflow: hidden;
 }
 
 .each-dish {
    display: flex;
    flex-direction: column;
-   height: 11.5vw;
    gap: 10px;
 }
 
@@ -183,4 +159,24 @@
    font-family: 'DinCondensed';
 }
 
+@media (min-width: 1367px) {
+   .starters p {
+      font-family: 'GillSans';
+      width: 10vw;
+   }
 
+   .main-courses p {
+      font-family: 'GillSans';
+      width: 10vw;
+   }
+
+   .sides p {
+      font-family: 'GillSans';
+      width: 10vw;
+   }
+
+   .desserts p {
+      font-family: 'GillSans';
+      width: 10vw;
+   }
+}

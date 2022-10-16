@@ -60,11 +60,11 @@ function Footer() {
 
         <div className="social-media">
           <figure className="social-images">
-            <img src="/public/images/facebook-icon.svg" alt="facebook" />
-            <img src="/public/images/twitter-icon.svg" alt="twitter" />
-            <img src="/public/images/instagram-icon.svg" alt="instagram" />
-            <img src="/public/images/Linkedin-icon.svg" alt="linkdin" />
-            <img src="/public/images/facebook-icon.svg" alt="..." />
+            <img src="/images/facebook-icon.svg" alt="facebook" />
+            <img src="/images/twitter-icon.svg" alt="twitter" />
+            <img src="/images/instagram-icon.svg" alt="instagram" />
+            <img src="/images/Linkedin-icon.svg" alt="linkdin" />
+            <img src="/images/facebook-icon.svg" alt="..." />
           </figure>
         </div>
       </div>

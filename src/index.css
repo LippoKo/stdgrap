@@ -6,7 +6,9 @@
   overflow-x: hidden;
 }
 
-
+::-webkit-scrollbar {
+  display: none;
+}
 
 :root {
   --base-color: hsl(19, 100%, 89%);

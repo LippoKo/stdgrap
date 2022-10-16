@@ -3,7 +3,7 @@
 .colaborate {
    position: relative;
    height: 462px;
-   width: 100vw;
+   width: 100%;
    background-color: var(--base-color);
 }
 
@@ -48,3 +48,8 @@
    background-color: white;
 }
 
+.detail-04 {
+   position: absolute;
+   right: 420px;
+   top: 5px;
+}
