@@ -5,7 +5,6 @@ import "./Community.css";
 function Community() {
   return (
     <section id="community">
-      {/* creating moviment with motion */}
       <h1 className="meet-h1">MEET OUR </h1>
       <article className="meet">
         <h2>COMMUNITY</h2>
@@ -17,6 +16,8 @@ function Community() {
           ENTALTO
         </h6>
       </article>
+
+      {/* creating moviment with motion */}
 
       {/* tacos */}
       <motion.div

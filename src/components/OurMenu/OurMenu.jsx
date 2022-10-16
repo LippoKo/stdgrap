@@ -1,11 +1,10 @@
 import axios from "axios";
 import { motion } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import "./OurMenu.css";
 
 function OurMenu() {
   const [menu, setMenu] = useState(null);
-  const scrollRef = useRef(null);
 
   // call to API
   const getMenu = async () => {
@@ -37,13 +36,12 @@ function OurMenu() {
           </article>
 
           {/* dishes */}
-          <section ref={scrollRef} className="dishes">
+          <section className="dishes">
             {/* Starters */}
             <motion.div
               initial={{ y: 400 }}
               animate={{ y: 0, x: 0 }}
               whileInView="visible"
-              viewport={{ root: scrollRef }}
               transition={{ type: "just", duration: 3 }}
               className="starters"
             >
@@ -76,7 +74,6 @@ function OurMenu() {
               initial={{ y: -500, x: 0 }}
               animate={{ y: 0, x: 0 }}
               whileInView="visible"
-              viewport={{ root: scrollRef }}
               transition={{ type: "just", duration: 3 }}
               className="main-courses"
             >
@@ -105,7 +102,6 @@ function OurMenu() {
               initial={{ y: 400 }}
               animate={{ y: 0, x: 0 }}
               whileInView="visible"
-              viewport={{ root: scrollRef }}
               transition={{ type: "just", duration: 3 }}
               className="sides"
             >
@@ -131,7 +127,6 @@ function OurMenu() {
               initial={{ y: -500 }}
               animate={{ y: 0, x: 0 }}
               whileInView="visible"
-              viewport={{ root: scrollRef }}
               transition={{ type: "just", duration: 3 }}
               className="desserts"
             >

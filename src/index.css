@@ -6,6 +6,25 @@
   overflow-x: hidden;
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 'DinCondensed', 'GillSans';
+}
+
+button {
+  border: none;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }

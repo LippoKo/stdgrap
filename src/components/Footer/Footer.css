@@ -48,15 +48,15 @@
    font-size: 62px;
 }
 
+.side-footer h3 {
+   text-align: end;
+   font-size: 35px;
+}
+
 .logo-bottom {
    position: absolute;
    top: 55px;
    right: 135px;
-}
-
-.side-footer h3 {
-   text-align: end;
-   font-size: 35px;
 }
 
 .social-images {

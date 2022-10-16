@@ -43,6 +43,7 @@ function Navbar() {
         </div>
       </div>
 
+      {/* side-bar */}
       <div className="left-bar">
         <ul>
           <li>

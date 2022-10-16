@@ -25,15 +25,6 @@
    left: 250px;
 }
 
-@media (min-width: 1367px) {
-   .food-image {
-      z-index: 1;
-      position: absolute;
-      top: 0px;
-      left: 540px;
-   }
- }
-
 .food-image img {
    width: 800px;
    height: 650px;
@@ -59,6 +50,7 @@
    overflow: hidden;
    position: absolute;
    top: 270px;
+   left: 465px;
    z-index: 1;
 }
 
@@ -75,6 +67,18 @@
    font-size: 35px;
 }
 
-button {
-   border: none;
-}
+@media (min-width: 1367px) {
+   .food-image {
+      z-index: 1;
+      position: absolute;
+      top: 0px;
+      left: 540px;
+   }
+
+   .slogan-h2 {
+      position: absolute;
+      top: 270px;
+      left: 741px;
+      z-index: 1;
+   }
+ }
