@@ -13,7 +13,7 @@ function App() {
       <div className="container">
         <div className="food-image">
           <img
-            src="/public/images/fruits-removebg-preview.png"
+            src="/images/fruits-removebg-preview.png"
             alt="food-image"
           />
         </div>
