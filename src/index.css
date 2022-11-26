@@ -1,9 +1,12 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -18,7 +21,7 @@ a {
   text-decoration: none;
   color: black;
   font-size: 18px;
-  font-family: 'DinCondensed', 'GillSans';
+  font-family: "DinCondensed", "GillSans";
 }
 
 button {
@@ -34,13 +37,11 @@ button {
 }
 
 @font-face {
-  font-family:'DinCondensed' ;
-  src: url(/fonts/DIN\ Condensed\ Bold.ttf) format('truetype')
+  font-family: "DinCondensed";
+  src: url(/fonts/DIN\ Condensed\ Bold.ttf) format("truetype");
 }
 
 @font-face {
-  font-family:'GillSans' ;
-  src: url(/fonts/GillSans.ttc) format('truetype')
+  font-family: "GillSans";
+  src: url(/fonts/GillSans.ttc) format("truetype");
 }
-
-
